@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Weather Report</title>
+  </head>
+  <body>
+    <header>
+      <h1>Weather Report</h1>
+    </header>
+    <main>
+      <div class="searching-listing">
+        <div class="city-search">
+          <h2><strong>Search for a City</strong></h2>
+          <input
+            type="text"
+            name="city-input"
+            id="city-input"
+            placeholder="Enter city"
+          />
+          <button id="search-button"><strong>Search</strong></button>
+        </div>
+        <div class="city-list">
+        </div>
+      </div>
+
+      <div class="display-card">
+        <div class="city-in-display">
+          <div class="display-header">
+            <h2 id="city-selected"></h2>
+            <h2 id="today-date"></h2>
+          </div>
+          <p>Temp: <span id="temp"></span></p>
+          <p>Wind: <span id="wind"></span></p>
+          <p>Humidity: <span id="humidity"></span></p>
+        </div>
+        <div>
+          <h3><strong>5-Day Forecast</strong></h3>
+        </div>
+        <div class="weather-card-container">
+          <div class="weather-card" id="weather-card-1">
+            <h4 class="5-Day weather-card-city"></h4>
+            <p>Temp: <span class="weather-card-temp"></span></p>
+            <p>Wind: <span class="weather-card-wind"></span></p>
+            <p>Humidity: <span class="weather-card-humidity"></span></p>
+          </div>
+          <div class="weather-card" id="weather-card-2">
+            <h4 class="5-Day weather-card-city"></h4>
+            <p>Temp: <span class="weather-card-temp"></span></p>
+            <p>Wind: <span class="weather-card-wind"></span></p>
+            <p>Humidity: <span class="weather-card-humidity"></span></p>
+          </div>
+          <div class="weather-card" id="weather-card-3">
+            <h4 class="5-Day weather-card-city"></h4>
+            <p>Temp: <span class="weather-card-temp"></span></p>
+            <p>Wind: <span class="weather-card-wind"></span></p>
+            <p>Humidity: <span class="weather-card-humidity"></span></p>
+          </div>
+          <div class="weather-card" id="weather-card-4">
+            <h4 class="5-Day weather-card-city"></h4>
+            <p>Temp: <span class="weather-card-temp"></span></p>
+            <p>Wind: <span class="weather-card-wind"></span></p>
+            <p>Humidity: <span class="weather-card-humidity"></span></p>
+          </div>
+          <div class="weather-card" id="weather-card-5">
+            <h4 class="5-Day weather-card-city"></h4>
+            <p>Temp: <span class="weather-card-temp"></span></p>
+            <p>Wind: <span class="weather-card-wind"></span></p>
+            <p>Humidity: <span class="weather-card-humidity"></span></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+  </body>
+</html>
