@@ -1,7 +1,7 @@
 # Weather-Report
 
 ## Discription
-This application can show your city's current temperature, humidity, and wind force. It can also display the next 5 days weather. 
+This application can show your city's current temperature, humidity, and wind force. It can also display the next 5 days weather. I used API keys to get waether information.
 
 ## Diployed Link & Screenshots
 https://juliankm.github.io/Weather-Report/
